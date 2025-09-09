@@ -1,0 +1,22 @@
+.left-col img{
+    width: 30px;
+}
+
+.nav-main{
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.right-col ul{
+    display: flex;
+    gap: 10px;
+}
+
+.right-col li {
+
+    list-style: none;
+
+}

@@ -1,0 +1,13 @@
+.home-main{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-left{
+    padding: 50px;
+}
+
+.home-right button{
+    text-align: center;
+}

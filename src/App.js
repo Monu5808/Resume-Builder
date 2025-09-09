@@ -1,10 +1,20 @@
-
 import './App.css';
+import Navbar from './Navbar/Navbar';
+import Home from './Pages/Home';
 
 function App() {
   return (
+
+  
+
     <div className="App">
-     <h1> New Project </h1>
+        
+        < Navbar />
+        <Home />
+        
+      
+    
+      
     </div>
   );
 }
