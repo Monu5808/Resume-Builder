@@ -1,13 +1,39 @@
 .home-main{
-    background-color: aqua;
+    
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.inner-home{
+
     display: flex;
     justify-content: space-between;
+    max-width: 1300px;
+
 }
 
 .home-left{
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+
 }
+
+
+
+ .home-right{
+    padding: 50px;
+} 
 
 .home-right button{
     text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: aqua;
 }
+
+ 
