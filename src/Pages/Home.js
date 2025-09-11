@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
+
 
 import mainImage from '../Assets/home-img.png'
 
@@ -21,7 +23,12 @@ const Home = () => {
 
           <div className='home-right'>
             <img src={mainImage} /> 
-            <button>Select Template</button>
+
+            <Link to="/select-template">
+               <button>Select Template</button>
+            </Link>
+
+           
           </div>
           
         </div>
