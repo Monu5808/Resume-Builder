@@ -1,0 +1,44 @@
+.main{
+
+    display: flex;
+
+
+}
+
+.inner{
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+
+}
+
+.heading-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.tenplate-section {
+    padding: 50px;
+}
+
+.template-section-row1{
+    display: flex;
+        justify-content: space-between;
+        gap: 20px;
+}
+
+.template-section-row1 img{
+
+        flex: 1;
+    height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+   
+}
+
