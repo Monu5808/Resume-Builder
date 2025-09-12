@@ -24,10 +24,19 @@ const SelectTemplate = () => {
             <div className='template-section-row1'>
 
               <img src={template1} />
-              <img src={template1}  />
-              <img src={template1}  />
+              <img src={template2}  />
+              <img src={template3}  />
 
             </div>
+
+          <div className='template-section-row2'>
+
+              <img src={template4} />
+              <img src={template5}  />
+              
+
+            </div>
+
             <div className='template-section-row1'></div>
           </div>
           
