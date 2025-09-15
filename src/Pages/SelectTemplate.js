@@ -1,5 +1,6 @@
 import React from 'react'
-import './SelectTemplate.css'
+import './SelectTemplate.css';
+import { Link } from 'react-router-dom'
 
 
 import template1 from '../Assets/templates/template1.png'
@@ -23,17 +24,29 @@ const SelectTemplate = () => {
           <div className='template-section'>
             <div className='template-section-row1'>
 
-              <img src={template1} />
-              <img src={template2}  />
-              <img src={template3}  />
+            <Link to="/template1">
+                 <img src={template1} />
+            </Link>
+
+              <Link to="/template2">
+                 <img src={template2} />
+            </Link>
+
+              <Link to="/template3">
+                 <img src={template3} />
+            </Link>
 
             </div>
 
           <div className='template-section-row2'>
 
+            <Link to="/template4">
               <img src={template4} />
-              <img src={template5}  />
-              
+            </Link>
+
+            <Link to="/template5">
+              <img src={template5} />
+            </Link>
 
             </div>
 
