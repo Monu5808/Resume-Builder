@@ -30,7 +30,7 @@ function App() {
           <Route path="/template2" element={<Template2/>} />
           <Route path="/template3" element={<Template3/>} />
           <Route path="/template4" element={<Template4/>} />
-          <Route path="/template5" element={<Template5/>} />
+          <Route path="/template5x" element={<Template5/>} />
 
       </Routes>        
     
