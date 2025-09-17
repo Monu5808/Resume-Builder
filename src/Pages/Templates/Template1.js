@@ -6,10 +6,12 @@ import profile from "../../Assets/profile-pic.png";
 
 const Template1 = () => {
   return (
-     <div className='main'>
-      <div className='inner'>
+    
+    <div className='container-fluid'>
 
-          <div className='form-section'>
+      <div className='row'>
+
+          <div className='col-md-6'>
              <form>
                 <input type="text" placeholder='Your Name' />
                 <input type="text" placeholder='Your Summary' />
@@ -19,18 +21,23 @@ const Template1 = () => {
                 <input type="email" placeholder='Email Id' />
              </form>
           </div>
-          <div className='layout-section'>
-            <div className='layout-section-row1'>
-              <div className='content-section'>
-
+          <div className='col-md-6'>
+            <div className='row'>
+              <div className='col-md-6'>
+                  <h1>Your Name</h1>
+                  <h3>work profile</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
 
-              <div className='image-section'>
+              <div className='col-md-6 image-sec'>
 
-                <img src={profile} />
+                <img style={{width:'150px'}} src={profile} />
 
               </div>
-            </div>  
+            </div> 
+
+            <hr />
+
           </div>
 
       </div>
