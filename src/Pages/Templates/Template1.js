@@ -36,7 +36,64 @@ const Template1 = () => {
               </div>
             </div> 
 
-            <hr />
+             <hr />
+
+             <diV className="row ">
+
+              <div className='col-md-3 layout-row2-left'>
+                <h3>contact</h3>
+
+                <b>Phone</b>
+                <p>Phone Number</p>
+
+                <b>Email</b>
+                <p>Email Address</p>
+
+                <b>Address</b>
+                <p>Adress Line</p>
+                  
+
+                <h3>Skills</h3>
+                <p>Skill 1</p>
+                <p>Skill 2</p>
+                <p>Skill 3</p>
+                <p>Skill 4</p>
+                <p>Skill 5</p>
+
+              </div>
+
+
+              <div className='col-md-9'>
+                <h3>Education</h3>
+                <b>Education Title</b>
+                <ul>
+                  <li>Education Description Show Here</li>
+                  <li>With Bullet Points</li>
+                </ul>
+
+                <h3>Projects</h3>
+                <b>Project Title</b>
+                <ul>
+                  <li>Project Description Show Here</li>
+                  <li>With Bullet Points</li>
+                </ul>
+
+                <h3>Work</h3>
+                <b>Work Title</b>
+                <ul>
+                  <li>Work Description Show Here</li>
+                  <li>With Bullet Points</li>
+                </ul>
+
+                <h3>Award & Acheivements</h3>
+                <ul>
+                  <li>Your Award Show Here</li>
+                </ul>
+                
+                  
+              </div>
+
+             </diV>
 
           </div>
 

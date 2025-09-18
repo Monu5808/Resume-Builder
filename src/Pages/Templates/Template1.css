@@ -2,3 +2,6 @@
     display: flex;
     justify-content: center;
 }
+.layout-row2-left{
+    border-right: 2px solid #000;
+}
